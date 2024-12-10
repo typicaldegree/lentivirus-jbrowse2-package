@@ -1,0 +1,150 @@
+{
+  "assemblies": [
+    {
+      "name": "HIV-1 Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "HIV-1 Genome-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hiv1_genome.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hiv1_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "HIV-2 Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "HIV-2 Genome-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "hiv2_genome.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "hiv2_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    },
+    {
+      "name": "SIV Genome",
+      "sequence": {
+        "type": "ReferenceSequenceTrack",
+        "trackId": "SIV Genome-ReferenceSequenceTrack",
+        "adapter": {
+          "type": "IndexedFastaAdapter",
+          "fastaLocation": {
+            "uri": "siv_genome.fna",
+            "locationType": "UriLocation"
+          },
+          "faiLocation": {
+            "uri": "siv_genome.fna.fai",
+            "locationType": "UriLocation"
+          }
+        }
+      }
+    }
+  ],
+  "configuration": {},
+  "connections": [],
+  "defaultSession": {
+    "name": "New Session"
+  },
+  "tracks": [
+    {
+      "type": "FeatureTrack",
+      "trackId": "HIV1-Annotations",
+      "name": "HIV-1 Annotations",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "hiv1_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "hiv1_annotations.sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "HIV-1 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "HIV2-Annotations",
+      "name": "HIV-2 Annotations",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "/Users/ajit.chamraj/Desktop/lentivirus-jbrowse2-package/docs/hiv2_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "/Users/ajit.chamraj/Desktop/lentivirus-jbrowse2-package/docs/hiv2_annotations.sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "HIV-2 Genome"
+      ]
+    },
+    {
+      "type": "FeatureTrack",
+      "trackId": "SIV-Annotations",
+      "name": "SIV Annotations",
+      "adapter": {
+        "type": "Gff3TabixAdapter",
+        "gffGzLocation": {
+          "uri": "siv_annotations.sorted.gff.gz",
+          "locationType": "UriLocation"
+        },
+        "index": {
+          "location": {
+            "uri": "siv_annotations.sorted.gff.gz.tbi",
+            "locationType": "UriLocation"
+          },
+          "indexType": "TBI"
+        }
+      },
+      "assemblyNames": [
+        "SIV Genome"
+      ]
+    },
+    {
+ 	 "type": "HTMLFeatureTrack",
+  "trackId": "HIV1-Protein-Structure",
+  "name": "HIV-1 Protein Structure",
+  "assemblyNames": ["HIV-1 Genome"],
+  "html": "<a href='hiv1_protein.pdb' target='_blank'>View HIV-1 Protein (PDB)</a>"
+},
+{
+  "type": "HTMLFeatureTrack",
+  "trackId": "HIV2-Protein-Structure",
+  "name": "HIV-2 Protein Structure",
+  "assemblyNames": ["HIV-2 Genome"],
+  "html": "<a href='hiv2_protein.pdb' target='_blank'>View HIV-2 Protein (PDB)</a>"
+},
+{
+  "type": "HTMLFeatureTrack",
+  "trackId": "SIV-Protein-Structure",
+  "name": "SIV Protein Structure",
+  "assemblyNames": ["SIV Genome"],
+  "html": "<a href='siv_protein.pdb' target='_blank'>View SIV Protein (PDB)</a>"
+}

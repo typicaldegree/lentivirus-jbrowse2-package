@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj15501
+#!genome-build-accession NCBI_Assembly:GCA_000863925.1
+##sequence-region M58410.1 1 9623
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11723
+M58410.1	Genbank	region	1	9623	.	+	.	ID=M58410.1:1..9623;Dbxref=taxon:11723;gb-acronym=SIV;gbkey=Src;mol_type=genomic RNA
+M58410.1	Genbank	long_terminal_repeat	1	688	.	+	.	ID=id-M58410.1:1..688;Note=5' LTR;gbkey=LTR
+M58410.1	Genbank	repeat_region	461	588	.	+	.	ID=id-M58410.1:461..588;Note=R repeat 5' copy;gbkey=repeat_region
+M58410.1	Genbank	gene	897	2438	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+M58410.1	Genbank	CDS	897	2438	.	+	0	ID=cds-AAA47588.1;Parent=gene-gag;Dbxref=NCBI_GP:AAA47588.1;Name=AAA47588.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAA47588.1
+M58410.1	Genbank	gene	2141	5314	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=pseudogene
+M58410.1	Genbank	CDS	2141	5314	.	+	0	ID=cds-pol;Parent=gene-pol;gbkey=CDS;gene=pol;partial=true;product=pol protein;pseudo=true;start_range=.,2141
+M58410.1	Genbank	gene	5214	5873	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+M58410.1	Genbank	CDS	5214	5873	.	+	0	ID=cds-AAA47589.1;Parent=gene-vif;Dbxref=NCBI_GP:AAA47589.1;Name=AAA47589.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAA47589.1
+M58410.1	Genbank	gene	5683	6039	.	+	.	ID=gene-vpx;Name=vpx;gbkey=Gene;gene=vpx;gene_biotype=protein_coding
+M58410.1	Genbank	CDS	5683	6039	.	+	0	ID=cds-AAA47590.1;Parent=gene-vpx;Dbxref=NCBI_GP:AAA47590.1;Name=AAA47590.1;gbkey=CDS;gene=vpx;product=vpx protein;protein_id=AAA47590.1
+M58410.1	Genbank	gene	5993	8449	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=pseudogene
+M58410.1	Genbank	CDS	5993	6195	.	+	0	ID=cds-tat;Parent=gene-tat;Note=tat protein;gbkey=CDS;gene=tat;pseudo=true
+M58410.1	Genbank	CDS	8368	8449	.	+	1	ID=cds-tat;Parent=gene-tat;Note=tat protein;gbkey=CDS;gene=tat;pseudo=true
+M58410.1	Genbank	gene	6135	8750	.	+	.	ID=gene-rev1;Name=rev1;gbkey=Gene;gene=rev1;gene_biotype=pseudogene
+M58410.1	Genbank	CDS	6135	6195	.	+	0	ID=cds-rev1;Parent=gene-rev1;Note=rev protein;gbkey=CDS;gene=rev1;pseudo=true
+M58410.1	Genbank	CDS	8368	8750	.	+	2	ID=cds-rev1;Parent=gene-rev1;Note=rev protein;gbkey=CDS;gene=rev1;pseudo=true
+M58410.1	Genbank	gene	6202	8766	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+M58410.1	Genbank	CDS	6202	8766	.	+	0	ID=cds-AAA47591.1;Parent=gene-env;Dbxref=NCBI_GP:AAA47591.1;Name=AAA47591.1;gbkey=CDS;gene=env;product=envelope protein;protein_id=AAA47591.1
+M58410.1	Genbank	gene	8600	9271	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+M58410.1	Genbank	CDS	8600	9271	.	+	0	ID=cds-AAA47592.1;Parent=gene-nef;Dbxref=NCBI_GP:AAA47592.1;Name=AAA47592.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAA47592.1
+M58410.1	Genbank	long_terminal_repeat	8937	9623	.	+	.	ID=id-M58410.1:8937..9623;Note=3' LTR;gbkey=LTR
+M58410.1	Genbank	repeat_region	9407	9524	.	+	.	ID=id-M58410.1:9407..9524;Note=R repeat 3' copy;gbkey=repeat_region
+M58410.1	Genbank	region	9506	9511	.	+	.	ID=id-M58410.1:9506..9511;gbkey=polyA_signal
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ViralProj14991
+#!genome-build-accession NCBI_Assembly:GCA_000856385.1
+##sequence-region M30502.1 1 10359
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11709
+M30502.1	Genbank	region	1	10359	.	+	.	ID=M30502.1:1..10359;Dbxref=taxon:11709;clone=MK[2%2C6];gb-acronym=HIV-2;gbkey=Src;genome=proviral;isolate=BEN;mol_type=genomic DNA
+M30502.1	Genbank	long_terminal_repeat	1	855	.	+	.	ID=id-M30502.1:1..855;Note=5' LTR;gbkey=LTR
+M30502.1	Genbank	primer_binding_site	859	875	.	+	.	ID=id-M30502.1:859..875;Note=primer (Lys-tRNA) binding site;gbkey=primer_bind
+M30502.1	Genbank	CDS	1103	2668	.	+	0	ID=cds-AAB00736.1;Dbxref=NCBI_GP:AAB00736.1;Name=AAB00736.1;gbkey=CDS;product=AAB00736.1;protein_id=AAB00736.1
+M30502.1	Genbank	gene	2863	5754	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+M30502.1	Genbank	CDS	2863	5754	.	+	0	ID=cds-AAB00737.1;Parent=gene-pol;Dbxref=NCBI_GP:AAB00737.1;Name=AAB00737.1;Note=First start codon located at 2863.%3B ORF bordered by stop codons at 5' (bp 2323) and 3'(bp 5754) ends.;gbkey=CDS;gene=pol;product=pol polyprotein;protein_id=AAB00737.1
+M30502.1	Genbank	CDS	5423	6070	.	+	0	ID=cds-AAB00738.1;Dbxref=NCBI_GP:AAB00738.1;Name=AAB00738.1;gbkey=CDS;product=AAB00738.1;protein_id=AAB00738.1
+M30502.1	Genbank	CDS	5898	6239	.	+	0	ID=cds-AAB00739.1;Dbxref=NCBI_GP:AAB00739.1;Name=AAB00739.1;gbkey=CDS;product=AAB00739.1;protein_id=AAB00739.1
+M30502.1	Genbank	CDS	6239	6502	.	+	0	ID=cds-AAB00740.1;Dbxref=NCBI_GP:AAB00740.1;Name=AAB00740.1;gbkey=CDS;product=AAB00740.1;protein_id=AAB00740.1
+M30502.1	Genbank	CDS	6402	6697	.	+	0	ID=cds-AAB00741.1;Dbxref=NCBI_GP:AAB00741.1;Name=AAB00741.1;gbkey=CDS;product=AAB00741.1;protein_id=AAB00741.1
+M30502.1	Genbank	CDS	8861	8957	.	+	1	ID=cds-AAB00741.1;Dbxref=NCBI_GP:AAB00741.1;Name=AAB00741.1;gbkey=CDS;product=AAB00741.1;protein_id=AAB00741.1
+M30502.1	Genbank	exon	6402	6697	.	+	.	ID=id-M30502.1:6402..6697-2;Note=first expressed exon;exon_number=2;gbkey=exon;number=2;partial=true;start_range=.,6402
+M30502.1	Genbank	CDS	6628	6697	.	+	0	ID=cds-AAB00742.1;Dbxref=NCBI_GP:AAB00742.1;Name=AAB00742.1;gbkey=CDS;product=AAB00742.1;protein_id=AAB00742.1
+M30502.1	Genbank	CDS	8861	9102	.	+	2	ID=cds-AAB00742.1;Dbxref=NCBI_GP:AAB00742.1;Name=AAB00742.1;gbkey=CDS;product=AAB00742.1;protein_id=AAB00742.1
+M30502.1	Genbank	exon	6628	6697	.	+	.	ID=id-M30502.1:6628..6697-2;Note=first expressed exon;exon_number=2;gbkey=exon;number=2;partial=true;start_range=.,6628
+M30502.1	Genbank	CDS	6704	9286	.	+	0	ID=cds-AAB00743.1;Dbxref=NCBI_GP:AAB00743.1;Name=AAB00743.1;gbkey=CDS;product=AAB00743.1;protein_id=AAB00743.1
+M30502.1	Genbank	exon	8861	9102	.	+	.	ID=id-M30502.1:8861..9102-3;end_range=9102,.;exon_number=3;gbkey=exon;number=3;partial=true
+M30502.1	Genbank	exon	8861	8957	.	+	.	ID=id-M30502.1:8861..8957-3;end_range=8957,.;exon_number=3;gbkey=exon;number=3;partial=true
+M30502.1	Genbank	CDS	9120	9893	.	+	0	ID=cds-AAB00744.1;Dbxref=NCBI_GP:AAB00744.1;Name=AAB00744.1;gbkey=CDS;product=AAB00744.1;protein_id=AAB00744.1
+M30502.1	Genbank	long_terminal_repeat	9505	10359	.	+	.	ID=id-M30502.1:9505..10359;Note=3' LTR;gbkey=LTR
+M30502.1	Genbank	region	10211	10216	.	+	.	ID=id-M30502.1:10211..10216;gbkey=polyA_signal
+###

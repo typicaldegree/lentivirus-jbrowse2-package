@@ -1,0 +1,35 @@
+{
+"apiVersion": "V2",
+"assemblies": [
+{
+  "files": [
+    {
+      "filePath": "data_summary.tsv",
+      "fileType": "DATA_TABLE",
+      "uncompressedLengthBytes": "524"
+    },
+    {
+      "filePath": "assembly_data_report.jsonl",
+      "fileType": "DATA_REPORT",
+      "uncompressedLengthBytes": "2154"
+    }
+  ]
+},{
+  "accession": "GCA_000863925.1",
+  "files": [
+    {
+      "filePath": "GCA_000863925.1/genomic.gff",
+      "fileType": "GFF3",
+      "uncompressedLengthBytes": "3218"
+    }
+  ]
+},{
+  "accession": "GCF_000863925.1",
+  "files": [
+    {
+      "filePath": "GCF_000863925.1/genomic.gff",
+      "fileType": "GFF3",
+      "uncompressedLengthBytes": "4503"
+    }
+  ]
+}]}
