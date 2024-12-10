@@ -1,0 +1,6 @@
+[submodule "docs/plugins/jbrowse-plugin-protein3d"]
+	path = docs/plugins/jbrowse-plugin-protein3d
+	url = https://github.com/GMOD/jbrowse-plugin-protein3d.git
+[submodule "docs/docs/plugins/jbrowse-plugin-protein3d"]
+	path = docs/docs/plugins/jbrowse-plugin-protein3d
+	url = https://github.com/GMOD/jbrowse-plugin-protein3d.git
